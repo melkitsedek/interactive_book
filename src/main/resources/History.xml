@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History>
+	<Nodes>
+		<HistoryOption>
+			<NodeID>0</NodeID>
+			<Text>Welcome to the testing phase! What do you want?</Text>
+			<Options>
+				<DialogueOption>
+					<Text>I want to help you testing the bot.</Text>
+					<DestinationNodeID>1</DestinationNodeID>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Nothing.</Text>
+					<DestinationNodeID>2</DestinationNodeID>
+				</DialogueOption>
+			</Options>
+		</HistoryOption>
+		<HistoryOption>
+			<NodeID>1</NodeID>
+			<Text>Okay, do you wanna now what's our purpose?</Text>
+			<Options>
+				<DialogueOption>
+					<Text>Sure.</Text>
+					<DestinationNodeID>3</DestinationNodeID>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>I wanna figure it out for myself.</Text>
+					<DestinationNodeID>4</DestinationNodeID>
+				</DialogueOption>
+			</Options>
+		</HistoryOption>
+		<HistoryOption>
+			<NodeID>2</NodeID>
+			<Text>Okay, I wanna help you. Left or right?</Text>
+			<Options>
+				<DialogueOption>
+					<Text>Left.</Text>
+					<DestinationNodeID>1</DestinationNodeID>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Right.</Text>
+					<DestinationNodeID>2</DestinationNodeID>
+				</DialogueOption>
+			</Options>
+		</HistoryOption>
+		<HistoryOption>
+			<NodeID>3</NodeID>
+			<Text>Welcome to the testing phase! What do you want?</Text>
+			<Options>
+				<DialogueOption>
+					<Text>I want to help you testing the bot.</Text>
+					<DestinationNodeID>1</DestinationNodeID>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Nothing.</Text>
+					<DestinationNodeID>2</DestinationNodeID>
+				</DialogueOption>
+			</Options>
+		</HistoryOption>
+	</Nodes>
+</History>
