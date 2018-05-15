@@ -1,0 +1,46 @@
+[
+		{
+			"nodeID" : 0,
+			"text" : "Welcome to the testing phase! What do you want?",
+			"options" : [
+				{"tag": "/helpToTestBot", "text" : "I want to help you testing the bot.", "destinationNodeID" : 1},
+				{"tag" : "/nothing", "text" : "Nothing.", "destinationNodeID" : -1}
+			]
+		},
+		{
+			"nodeID" : 1,
+			"text" : "Nice, you are welcome!",
+			"options" : [
+				{"tag" : "/aboutProject", "text" : "So are you. What is this project about?", "destinationNodeID" : 2},
+				{"tag" : "/beginTesting", "text" : "So are you. Let us begin!", "destinationNodeID" : 3}
+			]
+		},
+		{
+			"nodeID" : 2,
+			"text" : "It's about an interactive history to help people know themselves.",
+			"options" : [
+				{"tag" : "/beginTesting", "text" : "Nice, I wanna begin!", "destinationNodeID" : 3}
+			]
+		},
+		{
+			"nodeID" : 3,
+			"text" : "After here we will begin a history and in a short future you will choose how it will end.",
+			"options" : [
+				{"tag" : "/proceed", "text" : "Cool! Proceed.", "destinationNodeID" : 4}
+			]
+		},
+		{
+			"nodeID" : 4,
+			"text" : "Unfortunately (or fortunately) we have a lot of work to do yet, so come back again later.",
+			"options" : [
+				{"tag" : "/goToEnd", "text" : "Finish the history", "destinationNodeID" : -1}
+			]
+		},
+		{
+			"nodeID" : -1,
+			"text" : "So, goodbye!",
+			"options" : []
+		}
+	
+]
+
