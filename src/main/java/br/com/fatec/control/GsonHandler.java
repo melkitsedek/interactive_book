@@ -13,22 +13,14 @@ import br.com.fatec.model.HistoryNode;
 
 
 public class GsonHandler {
-	
+	//obtem recurso externo (no caso, arquivo .json)
 	public ArrayList<HistoryNode> getJSONResourceAsArrayList(String name) throws FileNotFoundException, IOException{
 		ArrayList<HistoryNode> history = new ArrayList<HistoryNode>();
-		try (Reader reader = new InputStreamReader(GsonHandler.class.getResourceAsStream(name), "UTF-8")){
-			Gson gson = new GsonBuilder().create();
-			TypeToken<ArrayList<HistoryNode>> token = new TypeToken<ArrayList<HistoryNode>>(){};
-			history = gson.fromJson(reader, token.getType());
+		Reader reader = new InputStreamReader(GsonHandler.class.getResourceAsStream(name), "UTF-8");
+		Gson gson = new GsonBuilder().create();
+		TypeToken<ArrayList<HistoryNode>> token = new TypeToken<ArrayList<HistoryNode>>(){};
+		history = gson.fromJson(reader, token.getType());
 
-		} catch (FileNotFoundException e) {
-			System.err.println(e);
-		} catch (IOException e) {
-			System.err.println(e);
-		} finally {
-			System.out.println("Unknown error on GsonHandler.");
-		}
-		
 		return history;
 		
 	}
