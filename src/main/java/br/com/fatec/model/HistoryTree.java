@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import br.com.fatec.control.GsonHandler;
 
 public class HistoryTree {
@@ -24,9 +23,12 @@ public class HistoryTree {
 		try {
 			//criar hashmap de history tree
 			ArrayList<HistoryNode> historyArrayList = gh.getJSONResourceAsArrayList(name);
+			System.out.println("Success retrieving on History Tree class. Node ID proof: " + historyArrayList.get(0).getNodeID());
+			
 			for(HistoryNode hn : historyArrayList) {
 				historyTree.put(hn.getNodeID(), hn);
 			}
+			
 		} catch (IOException e) {
 			System.out.print("Failed to create History Tree. Exception: ");
 			System.err.println(e);
@@ -34,9 +36,7 @@ public class HistoryTree {
 			System.out.print("Failed to create History Tree. Exception: ");
 			System.err.println(e);
 			
-		} finally {
-			System.out.println("Failed to create History Tree. Unknown exception.");
-		}
+		} 
 		
 		
 	}

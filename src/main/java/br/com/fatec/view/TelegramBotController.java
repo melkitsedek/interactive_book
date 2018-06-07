@@ -18,18 +18,19 @@ import br.com.fatec.model.HistoryNode;
 import br.com.fatec.model.HistoryTree;
 
 
+
 public class TelegramBotController {
 	public static void main(String[] args) throws InterruptedException {
-		String historyTreeLocation = "config/mainHistory.json",
+		String historyTreeLocation = "src/main/config/mainHistory.json",
 				botToken = "507531907:AAHUyqxiTQObHFM5Q4V0jhFPknwuvJ6KlHs";
-
+		
+		HistoryTree historyTree = new HistoryTree(historyTreeLocation);
 		TelegramBot bot = TelegramBotAdapter.build(botToken);
 		
 		GetUpdatesResponse updatesResponse;
 		SendResponse sendResponse;
 		BaseResponse baseResponse;
 		
-		HistoryTree historyTree = new HistoryTree(historyTreeLocation);
 		AnswerHandler answerHandler = new AnswerHandler(historyTree.getHistoryTree());
 		
 		Long chatID = null;
