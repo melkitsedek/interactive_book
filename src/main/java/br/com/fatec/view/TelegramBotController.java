@@ -61,7 +61,7 @@ public class TelegramBotController {
 									answerHandler.handleAnswer(update.message().text(), currentNode));
 						sendResponse = bot.execute(new SendMessage(chatID, currentNode.getText()));
 						for(HistoryOption ho : currentNode.getOptions()){
-							sendResponse = bot.execute(new SendMessage(chatId, ho.getTag() + ": " + ho.getText()));
+							sendResponse = bot.execute(new SendMessage(chatID, (ho.getTag() + ": " + ho.getText())));
 						}
 					}
 				}
