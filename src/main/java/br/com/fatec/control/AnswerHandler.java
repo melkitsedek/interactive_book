@@ -5,22 +5,30 @@ import br.com.fatec.model.HistoryNode;
 import br.com.fatec.model.HistoryOption;;
 
 public class AnswerHandler {
-	private HashMap<Integer, HistoryNode> historyTree;
-	private int previousID;
+	private int previousID, nextID;
 	
 	public int handleAnswer(String text, HistoryNode hn) {
+		System.out.println("entering node: " + hn.getNodeID());
+		System.out.println("input tag: " + text);
 		previousID = hn.getNodeID();
 		
 		if(text.charAt(0) != '/') {
-			return -2;
+			nextID = -2;
+			return nextID;
 		}
-
-		for(HistoryOption ho : hn.getOptions()){
-			if(text == ho.getTag()){
-				return ho.getDestinationNodeID();
+		else {
+			for(HistoryOption ho : hn.getOptions()){
+				System.out.println("i'm entering on for each loop? (answer handler)");
+				System.out.println("what tag? " + ho.getTag());
+				if(text.equals(ho.getTag()) ){
+					nextID = ho.getDestinationNodeID();
+					System.out.println("next id changed.");
+					return nextID;
+					
+				}
 			}
 		}
-
-		return -1;
+		System.out.println("returned previous...");
+		return previousID;
 	}
 }
