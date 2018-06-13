@@ -40,6 +40,14 @@
 			"nodeID" : -1,
 			"text" : "So, goodbye!",
 			"options" : []
+		},
+		{
+			"nodeID" : -2,
+			"text" : "Invalid option!",
+			"options" : [
+				{"tag" : "/goToEnd", "text" : "Finish the history", "destinationNodeID" : -1},
+				{"tag" : "/startAgain", "text" : "From the begining", "destinationNodeID" : 0}
+			]
 		}
 	
 ]

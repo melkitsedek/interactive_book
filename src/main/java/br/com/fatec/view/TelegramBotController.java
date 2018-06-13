@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
+import com.pengrad.telegrambot.model.Chat;
 import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.model.request.ChatAction;
 import com.pengrad.telegrambot.request.GetUpdates;
@@ -15,6 +16,7 @@ import com.pengrad.telegrambot.response.SendResponse;
 
 import br.com.fatec.control.AnswerHandler;
 import br.com.fatec.model.HistoryNode;
+import br.com.fatec.model.HistoryOption;
 import br.com.fatec.model.HistoryTree;
 
 
@@ -26,15 +28,15 @@ public class TelegramBotController {
 		
 		HistoryTree historyTree = new HistoryTree(historyTreeLocation);
 		TelegramBot bot = TelegramBotAdapter.build(botToken);
-		
+		HistoryNode currentNode = historyTree.getHistoryTree().get(0);
+
 		GetUpdatesResponse updatesResponse;
 		SendResponse sendResponse;
 		BaseResponse baseResponse;
+
 		
-		AnswerHandler answerHandler = new AnswerHandler(historyTree.getHistoryTree());
-		
+		AnswerHandler answerHandler = new AnswerHandler();
 		Long chatID = null;
-		
 		int offsetControl = 0;
 		
 		while(true) {
@@ -50,18 +52,20 @@ public class TelegramBotController {
 				if(update.callbackQuery() != null)
 					sendResponse = bot.execute(new SendMessage(update.callbackQuery().message().chat().id(), update.callbackQuery().data()));
 				else {
-					baseResponse = bot.execute(new SendChatAction(chatID, ChatAction.typing.name()));
 					
-					sendResponse = bot.execute(new SendMessage(chatID, answerHandler.handleAnswerAsString(update.message().text())));
 					
 					if(update.message().text() != null) {
-						
+						baseResponse = bot.execute(new SendChatAction(chatID, ChatAction.typing.name()));
+						currentNode = 
+								historyTree.getHistoryTree().get(
+									answerHandler.handleAnswer(update.message().text(), currentNode));
+						sendResponse = bot.execute(new SendMessage(chatID, currentNode.getText()));
+						for(HistoryOption ho : currentNode.getOptions()){
+							sendResponse = bot.execute(new SendMessage(chatId, ho.getTag() + ": " + ho.getText()));
+						}
 					}
 				}
-				
 			}
 		}
-		
-		
 	}
 }
