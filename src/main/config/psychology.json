@@ -14,14 +14,14 @@
 		"nodeID" : 1,
 		"text" : "Vou te dar acesso à minha caixa de ferramentas da mente para te ajudar a identificar alguns problemas comuns e resolvê-los.\n\nNota sobre diagnóstico e métodos não clínicos:\nAjudar alguém é uma nobre atitude, mas também é um processo delicado. Vou te oferecer uma série de ferramentas para te ajudar da melhor forma possível nesse processo, porém tenha em mente que não sou humano e não consigo identificar ou resolver problemas sérios com precisão clínica.",
 		"options" : [
-			{"tag" : "/ferramentas", "text" : "Hmm... caixa de ferramentas??", "destinationNodeID" : 7},
+			{"tag" : "/ferramentas", "text" : "Hmm... caixa de ferramentas??", "destinationNodeID" : 4},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 2,
-		"text" : "Pense no seguinte cenário:\nVocê fracassa em uma prova por duas vezes seguidas. A partir disso, você se culpa e declara que nunca consegue passar em provas e nunca conseguirá ser aprovado nessa prova.\nA partir de análise logica, e claramente irracional fazer esse tipo de afirmacao, pois voce estaria generalizando algo imprevisivel. Voce estaria fazendo uma sobregeneralizacao, um tipo de distorcao cognitiva.",
+		"text" : "Pense no seguinte cenário:\nVocê fracassa em uma prova por duas vezes seguidas. A partir disso, você se culpa e declara que nunca consegue passar em provas e nunca conseguirá ser aprovado nessa prova.\nA partir de análise lógica, e claramente irracional fazer esse tipo de afirmação, pois você estaria generalizando algo imprevisivel. Você estaria fazendo uma sobregeneralização (overgeneralization), um tipo de distorção cognitiva.",
 		"options" : [
 			{"tag" : "/ajudar", "text" : "Entendi, agora desejo ajudar alguém ou melhorar a mim mesmo!", "destinationNodeID" : 1},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
@@ -39,22 +39,21 @@
 	},
 	{
 		"nodeID" : 4,
-		"text" : "Template text.",
+		"text" : "Vamos separar nossa caixa de ferramentas em 3 diferentes modulos. Escolha qual deseja conhecer primeiramente: ",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/mindset", "text" : "Teoria mindset, ou das mentalidades.", "destinationNodeID" : 5},
+			{"tag" : "/distorcoes", "text" : "Distorções cognitivas mais comuns.", "destinationNodeID" : 7},
+			{"tag" : "/rotulos", "text" : "Teoria dos rótulos.", "destinationNodeID" : 14},
+			{"tag" : "/resumo", "text" : "Breve descrição dos módulos.", "destinationNodeID" : 15},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 5,
-		"text" : "Template text.",
+		"text" : "A teoria dos modelos mentais, ou mentalidades, se baseia em uma série de estudos sociais, psicológicos, biológicos e culturais.\nA teoria consiste em nos dar a noção de que o modo como enxergamos coisas como dificuldades ou sucessos, por exemplo, pode nos fazer uma pessoa melhor.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/mais", "text" : "Me conte mais!", "destinationNodeID" : 16},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
@@ -155,22 +154,18 @@
 	},
 	{
 		"nodeID" : 16,
-		"text" : "Template text.",
+		"text" : "Um modelo mental, ou mentalidade, é, basicamente, uma forma de se enxergar o mundo. No nosso caso, classificaremos as pessoas em torno de apenas dois modelos mentais: a mentalidade fixa e a mentalidade expandida.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/fixa", "text" : "Quero começar aprendendo sobre mentalidade fixa.", "destinationNodeID" : 17},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 17,
-		"text" : "Template text.",
+		"text" : "A mentalidade fixa (inglês: fixed mindset), e uma postura mental que processa experiências em forma de rótulos estáticos, como \"inteligente\", \"forte\" ou até mesmo \"fraco\" e \"ruim\".",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/mais", "text" : "Por favor, me explique melhor!", "destinationNodeID" : 18},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
