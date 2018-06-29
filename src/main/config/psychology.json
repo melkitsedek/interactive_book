@@ -1,0 +1,1257 @@
+
+[
+	{
+		"nodeID" : 0,
+		"text" : "Bem-vindo! Eu sou Ariel, um chatbot feito para te ajudar a identificar distorções cognitivas e desvios de postura de mentalidade. O que você deseja fazer agora?",
+		"options" : [
+			{"tag" : "/ajudar", "text" : "Desejo ajudar alguém ou melhorar a mim mesmo!", "destinationNodeID" : 1},
+			{"tag" : "/distorcoes", "text" : "Distorções e desvios cognitivos?", "destinationNodeID" : 2},
+			{"tag" : "/sobre", "text" : "Desejo saber mais sobre o projeto Ariel.", "destinationNodeID" : 3},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6}
+		]
+	},
+	{
+		"nodeID" : 1,
+		"text" : "Vou te dar acesso à minha caixa de ferramentas da mente para te ajudar a identificar alguns problemas comuns e resolvê-los.\n\nNota sobre diagnóstico e métodos não clínicos:\nAjudar alguém é uma nobre atitude, mas também é um processo delicado. Vou te oferecer uma série de ferramentas para te ajudar da melhor forma possível nesse processo, porém tenha em mente que não sou humano e não consigo identificar ou resolver problemas sérios com precisão clínica.",
+		"options" : [
+			{"tag" : "/ferramentas", "text" : "Hmm... caixa de ferramentas??", "destinationNodeID" : 7},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 2,
+		"text" : "Pense no seguinte cenário:\nVocê fracassa em uma prova por duas vezes seguidas. A partir disso, você se culpa e declara que nunca consegue passar em provas e nunca conseguirá ser aprovado nessa prova.\nA partir de análise logica, e claramente irracional fazer esse tipo de afirmacao, pois voce estaria generalizando algo imprevisivel. Voce estaria fazendo uma sobregeneralizacao, um tipo de distorcao cognitiva.",
+		"options" : [
+			{"tag" : "/ajudar", "text" : "Entendi, agora desejo ajudar alguém ou melhorar a mim mesmo!", "destinationNodeID" : 1},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+			
+		]
+	},
+	{
+		"nodeID" : 3,
+		"text" : "Israel Peres: israelperes@gmail.com\nMatheus Evaristo: matheussilvasjc@gmail.com\nComo estudantes de computação, acreditamos no futuro.",
+		"options" : [
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 4,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 5,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 6,
+		"text" : "Telefones de emergência:\n\tCorpo de bombeiros: 193\n\tPolícia: 190\n\tCentro de valorização da vida: 188\n\nComo um chatbot, eu ainda posso tentar te ajudar a se sentir melhor (ou te ajudar a ajudar outra pessoa) com um simples exercício...",
+		"options" : [
+			{"tag" : "/exercio", "text" : "Um exercício?", "destinationNodeID" : 8},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 7,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 8,
+		"text" : "Sim, quero que siga algumas instruções para um simples exercício de respiração. Por favor, coloque-se em uma posição confortável e relaxada. Aconselho que sente ou deite.",
+		"options" : [
+			{"tag" : "/proximo", "text" : "E depois?", "destinationNodeID" : 9},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 9,
+		"text" : "Agora, certifique-se de manter seu corpo mais ou menos alinhado.",
+		"options" : [
+			{"tag" : "/alinhado", "text" : "Estou alinhado...", "destinationNodeID" : 10},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 10,
+		"text" : "Tente sentir o ar entrando nas suas narinas e pela sua boca enquanto você respira.",
+		"options" : [
+			{"tag" : "/respirando", "text" : "Respirando...", "destinationNodeID" : 11},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 11,
+		"text" : "Perceba como o ar enche seus pulmões enquanto você inspira lentamente...",
+		"options" : [
+			{"tag" : "/inspirando", "text" : "Meus pulmões se enchem lentamente...", "destinationNodeID" : 12},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 12,
+		"text" : "Agora, se concentre em apenas ouvir sua respiração.\nMe esqueça por um momento, feche os olhos e repita o processo de respirar lentamente (se desejar, conte a quantidade de vezes que inspira e expira... comece com algo como 20 vezes, mas não se deixe limitar e faça como se sentir mais confortável).",
+		"options" : [
+			{"tag" : "/calma", "text" : "Tudo com calma...", "destinationNodeID" : 13},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 13,
+		"text" : "Depois de ter feito o exercício, eu espero que esteja se sentindo melhor. Caso esteja passando por problemas sérios, contate alguém da minha lista de números de ajuda (botão /SOS)!",
+		"options" : [
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 14,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 15,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 16,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 17,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 18,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 19,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 20,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 21,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 22,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 23,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 24,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 25,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 26,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 27,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 28,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 29,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 30,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 31,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 32,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 33,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 34,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 35,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 36,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 37,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 38,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 39,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 40,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 41,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 42,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 43,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 44,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 45,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 46,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 47,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 48,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 49,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 50,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 51,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 52,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 53,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 54,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 55,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 56,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 57,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 58,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 59,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 60,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 61,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 62,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 63,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 64,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 65,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 66,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 67,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 68,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 69,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 70,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 71,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 72,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 73,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 74,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 75,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 76,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 77,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 78,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 79,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 80,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 81,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 82,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 83,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 84,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 85,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 86,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 87,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 88,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 89,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 90,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 91,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 92,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 93,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 94,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 95,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 96,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 97,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 98,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 99,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 100,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 101,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 102,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 103,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 104,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 105,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 106,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 107,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 108,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 109,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 110,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 111,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 112,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 113,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 114,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	},
+	{
+		"nodeID" : 115,
+		"text" : "Template text.",
+		"options" : [
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
+			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
+			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
+		]
+	}
+
+]
