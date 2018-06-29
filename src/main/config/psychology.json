@@ -42,7 +42,7 @@
 		"text" : "Vamos separar nossa caixa de ferramentas em 3 diferentes modulos. Escolha qual deseja conhecer primeiramente: ",
 		"options" : [
 			{"tag" : "/mindset", "text" : "Teoria mindset, ou das mentalidades.", "destinationNodeID" : 5},
-			{"tag" : "/distorcoes", "text" : "Distorções cognitivas mais comuns.", "destinationNodeID" : 7},
+			{"tag" : "/distorcoes", "text" : "Distorções cognitivas.", "destinationNodeID" : 7},
 			{"tag" : "/rotulos", "text" : "Teoria dos rótulos.", "destinationNodeID" : 14},
 			{"tag" : "/resumo", "text" : "Breve descrição dos módulos.", "destinationNodeID" : 15},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
@@ -68,11 +68,9 @@
 	},
 	{
 		"nodeID" : 7,
-		"text" : "Template text.",
+		"text" : "Distorções cognitivas são padrões de pensamento prejudiciais para si mesmo e para outros e consistem em falhas da nossa própria postura mental. Fique tranquilo, essas distorções são muito comuns e vou te ajudar a identificá-las e vencê-las com o conhecimento!",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/conhecimento", "text" : "Me dê conhecimento!!", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
@@ -143,11 +141,11 @@
 	},
 	{
 		"nodeID" : 15,
-		"text" : "Template text.",
+		"text" : "Em resumo:\nTeoria das mentalidades: você aprenderá o que são mentalidade fixa e expandida e como utilizar isso de forma prática.\nDistorções cognitivas: voce aprenderá algumas das principais falhas do nosso cérebro que nos levam ao sofrimento.\nVocê aprenderá como lidar melhor com adjetivos, bons ou ruins.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/mindset", "text" : "Teoria mindset, ou das mentalidades.", "destinationNodeID" : 5},
+			{"tag" : "/distorcoes", "text" : "Distorções cognitivas mais comuns.", "destinationNodeID" : 7},
+			{"tag" : "/rotulos", "text" : "Teoria dos rótulos.", "destinationNodeID" : 14},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
@@ -201,31 +199,31 @@
 		"nodeID" : 21,
 		"text" : "A mentalidade expandida objetiva eliminar crenças estáticas e rótulos atribuídos às pessoas. Ela constrói a eliminação dos problemas da mentalidade fixa.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/como", "text" : "Como as pessoas são incentivadas sem qualidades?", "destinationNodeID" : 22},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 22,
-		"text" : "Template text.",
+		"text" : "Na mentalidade expandida, as pessoas são incentivadas a focar somente no processo de aprendizagem e não no status de ser inteligente. Ao invés de chamarmos quem conseguiu cumprir determinada tarefa de \"inteligente\", podemos valorizar seu esforço, do mesmo modo que podemos cobrar esforço de alguem que não conseguiu, igualando as pessoas em termos qualitativos.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/sentido", "text" : "Faz sentido! Me leve de volta à caixa de ferramentas.", "destinationNodeID" : 4},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 23,
-		"text" : "Template text.",
+		"text" : "Aqui vai uma lista de varias distorções cognitivas comuns:",
 		"options" : [
+			{"tag" : "/filtragem", "text" : "Filtragem.", "destinationNodeID" : 6},
+			{"tag" : "/polarizado", "text" : "Pensamento polarizado (ou \"branco ou preto\").", "destinationNodeID" : 0},
+			{"tag" : "/sobregeneralizacao", "text" : "Sobregeneralização (overgeneralization).", "destinationNodeID" : 0},
 			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
 			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
 			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/mais", "text" : "Tem mais?", "destinationNodeID" : 0},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
