@@ -163,7 +163,7 @@
 	},
 	{
 		"nodeID" : 17,
-		"text" : "A mentalidade fixa (inglês: fixed mindset), e uma postura mental que processa experiências em forma de rótulos estáticos, como \"inteligente\", \"forte\" ou até mesmo \"fraco\" e \"ruim\".",
+		"text" : "A mentalidade fixa (inglês: fixed mindset), é uma postura mental que processa experiências em forma de rótulos estáticos, como \"inteligente\", \"forte\" ou até mesmo \"fraco\" e \"ruim\".",
 		"options" : [
 			{"tag" : "/mais", "text" : "Por favor, me explique melhor!", "destinationNodeID" : 18},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
@@ -172,40 +172,34 @@
 	},
 	{
 		"nodeID" : 18,
-		"text" : "Template text.",
+		"text" : "Podemos definir esses rótulos como adjetivos. Adjetivos podem ser bons ou ruins para um ser humano, dependendo de princípios morais e culturais, mas conforme a teoria das mentalidades, o tipo de adjetivo exeplificado anteriormente pode ser prejudicial, mesmo que seja positivo.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/como", "text" : "Como isso é possivel?", "destinationNodeID" : 19},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 19,
-		"text" : "Template text.",
+		"text" : "Em teoria, quando as pessoas são submetidas a classificações qualitativas fixas, como \"inteligente\" ou \"ser inteligente\", elas desenvolvem um senso de autojulgamento baseado nesses adjetivos.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/ruim", "text" : "Quão ruim isso pode ser?", "destinationNodeID" : 20},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 20,
-		"text" : "Template text.",
+		"text" : "Quando há fracasso ou decepção em relação a algo diretamente relacionado ao adjetivo, alguém que acreditava ser \"esperto\" pode deixar de acreditar nisso e ter receio de desafiar sua \"esperteza\" novamente, pois fez algo que catacteriza uma pessoa que não é \"esperta\".\nAlém disso, alguém que ouve e aprende que seu companheiro de turma da escola é \"inteligente\" tenderá a concluir de si mesmo que simplesmente não possui essa suposta qualidade inata.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/expandida", "text" : "E quanto à mentalidade expandida?", "destinationNodeID" : 21},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 21,
-		"text" : "Template text.",
+		"text" : "A mentalidade expandida objetiva eliminar crenças estáticas e rótulos atribuídos às pessoas. Ela constrói a eliminação dos problemas da mentalidade fixa.",
 		"options" : [
 			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
 			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
@@ -447,7 +441,7 @@
 	},
 	{
 		"nodeID" : 43,
-		"text" : "Template text.",
+		"text" : "Template text.", 
 		"options" : [
 			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
 			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
@@ -570,7 +564,7 @@
 		"nodeID" : 54,
 		"text" : "Template text.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
+			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6}, 
 			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
 			{"tag" : "", "text" : "", "destinationNodeID" : 0},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
