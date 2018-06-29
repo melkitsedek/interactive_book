@@ -13,7 +13,7 @@ public class AnswerHandler {
 		previousID = hn.getNodeID();
 		
 		if(text.charAt(0) != '/') {
-			nextID = -2;
+			nextID = 0;
 			return nextID;
 		}
 		else {

@@ -217,189 +217,180 @@
 		"nodeID" : 23,
 		"text" : "Aqui vai uma lista de varias distorções cognitivas comuns:",
 		"options" : [
-			{"tag" : "/filtragem", "text" : "Filtragem.", "destinationNodeID" : 6},
-			{"tag" : "/polarizado", "text" : "Pensamento polarizado (ou \"branco ou preto\").", "destinationNodeID" : 0},
-			{"tag" : "/sobregeneralizacao", "text" : "Sobregeneralização (overgeneralization).", "destinationNodeID" : 0},
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
-			{"tag" : "/mais", "text" : "Tem mais?", "destinationNodeID" : 0},
+			{"tag" : "/filtragem", "text" : "Filtragem.", "destinationNodeID" : 25},
+			{"tag" : "/polarizado", "text" : "Pensamento polarizado (ou \"branco ou preto\").", "destinationNodeID" : 26},
+			{"tag" : "/sobregeneralizacao", "text" : "Sobregeneralização (overgeneralization).", "destinationNodeID" : 27},
+			{"tag" : "/conclusoes", "text" : "Pular para as conclusões.", "destinationNodeID" : 28},
+			{"tag" : "/catastrofizacao", "text" : "Catastrofização.", "destinationNodeID" : 29}, 
+			{"tag" : "/personalizacao", "text" : "Personalização.", "destinationNodeID" : 30},
+			{"tag" : "/mais", "text" : "Tem mais?", "destinationNodeID" : 24},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 24,
-		"text" : "Template text.",
+		"text" : "Mais algumas:",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/falacias", "text" : "Falácias de controle.", "destinationNodeID" : 31},
+			{"tag" : "/justica", "text" : "Falácia da justiça.", "destinationNodeID" : 32},
+			{"tag" : "/culpar", "text" : "Culpar.", "destinationNodeID" : 33},
+			{"tag" : "/deveria", "text" : "Deveria.", "destinationNodeID" : 34},
+			{"tag" : "/razao", "text" : "Razão emocional.", "destinationNodeID" : 35},
+			{"tag" : "/mudanca", "text" : "Falácia da mudança.", "destinationNodeID" : 36},
+			{"tag" : "/rotulagem", "text" : "Rotulagem global.", "destinationNodeID" : 37},
+			{"tag" : "/certo", "text" : "Sempre estar certo.", "destinationNodeID" : 38},
+			{"tag" : "/ceus", "text" : "Falácia da recompensa dos ceus.", "destinationNodeID" : 39},
+			{"tag" : "/voltar", "text": "Voltar para a lista anterior.", "destinationNodeID" : 23}, 
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 25,
-		"text" : "Template text.",
+		"text" : "Filtragem.\nAlgumas vezes, em uma situação complexa, tendemos a filtrar apenas os aspectos e detalhes negativos da situação, fazendo com que a enxerguemos de forma distorcida e obscurecida.\nExemplo:\nEu não estou conseguindo entender o assunto delta da aula, então sou um incapaz.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 26},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 26,
-		"text" : "Template text.",
+		"text" : "Pensamento polarizado (ou \"branco ou preto\").\nÀs vezes extremizamos uma situação e consideramos apenas dois resultados - o sucesso perfeito ou uma falha catastrófica. Quando algo dá errado, há muita culpa e auto-julgamento. Isso nos faz sermos inflexíveis e vulneráveis a falhas.\nExemplo:\nMinha primeira nota do semestre foi 5, então sou um fracasso.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 27},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 27,
-		"text" : "Template text.",
+		"text" : "Sobregeneralização (overgeneralization).\nQuando um fato ruim acontece e tendemos a tirar conclusoes e fazer previsoes baseadas fielmente nesse fato, estamos falando de sobregeneralização.\nExemplo:\nEu reprovei no exame, logo nunca passarei nesse exame.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 28},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 28,
-		"text" : "Template text.",
+		"text" : "Pular para as conclusões.\nTiramos conclusões sem termos certeza ou fatos que as apoiem. Podemos pensar que algo dará errado e começamos a agir como se já tivesse falhado.\nExemplo:\nMaria não olhou para mim hoje, então ela certamente me odeia.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 29},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 29,
-		"text" : "Template text.",
+		"text" : "Catastrofização.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 30},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 30,
-		"text" : "Template text.",
+		"text" : "Personalização.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 31},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 31,
-		"text" : "Template text.",
+		"text" : "Falácias de controle.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 32},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 32,
-		"text" : "Template text.",
+		"text" : "Falácia da justiça.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 33},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 33,
-		"text" : "Template text.",
+		"text" : "Culpar.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 34},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 34,
-		"text" : "Template text.",
+		"text" : "Deveria.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 35},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 35,
-		"text" : "Template text.",
+		"text" : "Razão emocional.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 36},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 36,
-		"text" : "Template text.",
+		"text" : "Falácia da mudança.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 37},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 37,
-		"text" : "Template text.",
+		"text" : "Rotulagem global.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 38},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 38,
-		"text" : "Template text.",
+		"text" : "Sempre estar certo.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/proxima", "text" : "Proxima da lista.", "destinationNodeID" : 39},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
 	},
 	{
 		"nodeID" : 39,
-		"text" : "Template text.",
+		"text" : "Falácia da recompensa dos ceus.",
 		"options" : [
-			{"tag" : "/t1", "text" : "Template option 1", "destinationNodeID" : 6},
-			{"tag" : "/t2", "text" : "Template option 2", "destinationNodeID" : 0},
-			{"tag" : "", "text" : "", "destinationNodeID" : 0},
+			{"tag" : "/voltar", "text": "Voltar para a lista.", "destinationNodeID" : 23},
 			{"tag" : "/SOS", "text" : "Preciso urgentemente de ajuda!", "destinationNodeID" : 6},
 			{"tag" : "/inicio", "text" : "Desejo voltar ao início,", "destinationNodeID" : 0}
 		]
