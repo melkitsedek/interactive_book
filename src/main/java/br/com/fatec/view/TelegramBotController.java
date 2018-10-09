@@ -24,7 +24,7 @@ import br.com.fatec.model.HistoryTree;
 public class TelegramBotController {
 	public static void main(String[] args) throws InterruptedException {
 		String historyTreeLocation = "src/main/config/psychology.json",
-				botToken = "615073347:AAE9xHJABfoE6T8cxlXP9cSLWqUh3G79CX8"; //to insert
+				botToken = ""; //to insert
 		
 		HistoryTree historyTree = new HistoryTree(historyTreeLocation);
 		TelegramBot bot = TelegramBotAdapter.build(botToken);
